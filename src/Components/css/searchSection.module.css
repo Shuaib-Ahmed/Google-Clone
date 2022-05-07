@@ -1,0 +1,43 @@
+.mainConatiner {
+  width: 70vw;
+  min-height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.mainConatiner div {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.mainConatiner div h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+.mainConatiner div h1 {
+  font-size: 2.75rem;
+  margin-bottom: 1rem;
+}
+.mainConatiner div h1 a {
+  color: var(--secondaryTextColor);
+}
+.mainConatiner div p {
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 776px) {
+  .mainConatiner {
+    padding: 1rem;
+    width: 98vw;
+    margin: 0;
+  }
+}
